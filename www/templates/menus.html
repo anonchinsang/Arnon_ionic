@@ -1,0 +1,35 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+  
+<!-- Chats Tab -->
+  <ion-tab title="หน้าหลัก" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/menus/main">
+    <ion-nav-view name="tab-main"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Dashboard Tab -->
+  <ion-tab title="วิธีการใช้" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" href="#/menus/howto">
+    <ion-nav-view name="tab-howto"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Account Tab -->
+  <ion-tab title="สมาชิก" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/menus/member">
+    <ion-nav-view name="tab-member"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="เพลง" icon-off="ion-ios-heart-outline" icon-on="ion-ios-heart" href="#/menus/music">
+    <ion-nav-view name="tab-music"></ion-nav-view>
+  </ion-tab>
+
+<!-- Account Tab -->
+  <ion-tab title="โทร" icon-off="ion-ios-game-controller-b-outline" icon-on="ion-ios-game-controller-b" href="#/menus/call">
+    <ion-nav-view name="tab-call"></ion-nav-view>
+  </ion-tab>
+
+<ion-tab title="โหล" icon-off="ion-ios-game-controller-b-outline" icon-on="ion-ios-game-controller-b" href="#/menus/hello">
+    <ion-nav-view name="tab-hello"></ion-nav-view>
+  </ion-tab>
+</ion-tabs>
